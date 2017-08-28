@@ -1,0 +1,20 @@
+<h2>Messages</h2>
+
+  
+<div class="container">
+   <table class="table table-inverse">
+        <thead>
+          <tr id="headers">
+            <th>Message</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr ng-repeat="message in vm.messages.list">
+            <td>{{ message }}</td>
+            <td>{{ message.messages }}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div><!--/container-->
+
+   
